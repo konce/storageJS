@@ -9,6 +9,7 @@ define(function () {
     };
 
     return {
+        /* just for test link */
         get: function (key) {
             return this.isFresh(key);
         },
